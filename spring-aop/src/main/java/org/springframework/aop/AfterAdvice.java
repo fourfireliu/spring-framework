@@ -27,5 +27,8 @@ import org.aopalliance.aop.Advice;
  * @see BeforeAdvice
  */
 public interface AfterAdvice extends Advice {
+  public static void main(String args[]) {
+    System.out.println("Hello world");
+  }
 
 }
